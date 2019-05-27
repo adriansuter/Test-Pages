@@ -1,1 +1,9 @@
-theme: jekyll-theme-minimal
+#theme: jekyll-theme-minimal
+highlighter: rouge
+markdown: kramdown
+timezone: Europe/Zurich
+title: Test Pages
+kramdown:
+  input: GFM
+  hard_wrap: false
+syntax_highlighter: rouge
