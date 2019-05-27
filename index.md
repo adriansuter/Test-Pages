@@ -6,6 +6,10 @@ title: This is my title
 
 How are you?
 
-{% for page in site.pages %}
-  {{ page.url }} -- {{ page.title }}
+<ul>
+{% for page in site.html_pages %}
+  <li>
+    <a href="{{ page.url }}">{{ page.title }}</a>
+  </li>
 {% endfor %}
+</ul>
