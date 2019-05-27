@@ -2,14 +2,18 @@
 title: This is my title
 ---
 
+<ul>
+{% for page in site.html_pages %}
+  <li>
+    <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
+  </li>
+{% endfor %}
+</ul>
+
 ## Hi there
 
 How are you?
 
-<ul>
-{% for page in site.html_pages %}
-  <li>
-    <a href="/Test-Pages{{ page.url }}">{{ page.title }}</a>
-  </li>
-{% endfor %}
-</ul>
+```php
+echo 'hello world';
+```
