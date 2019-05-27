@@ -1,8 +1,1 @@
 theme: jekyll-theme-midnight
-
-defaults:
-  -
-    scope:
-      path: ""
-    values:
-      projectTitle: "Test Pages Project"
