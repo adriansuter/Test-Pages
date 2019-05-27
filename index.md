@@ -2,6 +2,10 @@
 title: This is my title
 ---
 
-## Hi there {{ projectTitle }}
+## Hi there
 
 How are you?
+
+{% for page in site.pages %}
+  {{ page.url }} -- {{ page.title }}
+{% endfor %}
