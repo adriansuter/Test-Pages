@@ -1,4 +1,8 @@
 @import "rouge-github";
 
-// Bootstrap variables.
-$enable-gradients: false;
+///
+// Bootstrap overrides.
+///
+$primary: #e83e8c;
+
+@import "bootstrap-4.3.1/bootstrap";

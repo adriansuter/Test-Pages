@@ -6,6 +6,10 @@ title: Home
 
 How are you?
 
+<button class="btn btn-primary">
+    This is a primary button
+</button>
+
 ```php
 namespace ns;
 
