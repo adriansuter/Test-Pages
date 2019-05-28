@@ -1,7 +1,6 @@
 title: Test Pages
 timezone: Europe/Zurich
 
-plugins: [bootstrap, autoprefixer-rails]
 markdown: kramdown
 highlighter: rouge
 syntax_highlighter: rouge
