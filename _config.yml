@@ -1,9 +1,17 @@
-#theme: jekyll-theme-minimal
-highlighter: rouge
-markdown: kramdown
-timezone: Europe/Zurich
 title: Test Pages
+timezone: Europe/Zurich
+
+markdown: kramdown
+highlighter: rouge
+syntax_highlighter: rouge
+
 kramdown:
   input: GFM
   hard_wrap: false
-syntax_highlighter: rouge
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
