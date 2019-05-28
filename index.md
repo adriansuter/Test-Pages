@@ -1,19 +1,21 @@
 ---
-title: This is my title
+title: Home
 ---
-
-<ul>
-{% for page in site.html_pages %}
-  <li>
-    <a href="{{ page.url | absolute_url }}">{{ page.title }}</a>
-  </li>
-{% endfor %}
-</ul>
 
 ## Hi there
 
 How are you?
 
 ```php
-echo 'hello world';
+namespace ns;
+
+class Hello
+{
+    public function world()
+    {
+        echo 'hello' . chr(32) . 'world';
+    }
+}
 ```
+
+And another `$variable` would define the value.
